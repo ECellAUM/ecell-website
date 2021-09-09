@@ -833,7 +833,7 @@ background: #fb3958;
  @media screen and (max-width: 400px){
     nav{
   position: fixed;
-  width: 100%;
+  width: 80%;
 }
   .container .welcome .row{
     margin-left: -40px;
@@ -843,9 +843,9 @@ background: #fb3958;
     margin-left: -10px;
   }
   .logo a img{
-    width: 220px;
+    width: 240px;
   margin-top: 10px;
-  margin-left: -35px;
+ 
 
   }
   .navbar i .bx-menu{
