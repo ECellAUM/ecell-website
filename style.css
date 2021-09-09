@@ -998,7 +998,7 @@ input[type=submit] {
 @media screen and (max-width: 480px){
   nav{
   position: fixed;
-  width: 85%;
+  width: 81%;
 }
 
   .container .row .col-sm-6 iframe{
@@ -1013,7 +1013,7 @@ input[type=submit] {
     .navbar .bx-menu{
       font-size: 25px;
       color: #fff;
-     margin-left: -30px;
+     margin-left: -40px;
      margin-top: -7px;
     }
     #tag blockquote{
