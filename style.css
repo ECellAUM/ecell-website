@@ -996,17 +996,19 @@ input[type=submit] {
 */
 
 @media screen and (max-width: 480px){
+  nav{
+  position: fixed;
+  width: 85%;
+}
 
   .container .row .col-sm-6 iframe{
    width: 100%;
 
   }
-  .logo img{
-    width: 260px;
+  .logo a img{
+    width: 240px;
   margin-top: 10px;
-  margin-left: 30px;
-
-  }
+}
   .sidebar-logo  i,
     .navbar .bx-menu{
       font-size: 25px;
