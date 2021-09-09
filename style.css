@@ -832,8 +832,9 @@ background: #fb3958;
 /*Media Queries*/
  @media screen and (max-width: 400px){
     nav{
-  position: fixed;
-  width: 80%;
+ 
+  width:100%;
+  position:absolute;
 }
   .container .welcome .row{
     margin-left: -40px;
@@ -997,8 +998,9 @@ input[type=submit] {
 
 @media screen and (max-width: 480px){
   nav{
-  position: fixed;
-  width: 81%;
+    width: 100%;
+  position: absolute;
+ 
 }
 
   .container .row .col-sm-6 iframe{
