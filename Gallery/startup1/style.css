@@ -350,7 +350,7 @@ nav .navbar .links li .sub-menu li{
  
 }
 form{
-  margin-left: 15px;
+  margin-left: 0px;
 }
 .container h5{
   font-size: 18px;
@@ -388,7 +388,7 @@ form input[type=submit] {
     top: 0;
     left: -100%;
     display: block;
-    max-width: 270px;
+    max-width: 250px;
     width: 100%;
     background: black;
     line-height: 40px;
