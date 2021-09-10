@@ -355,7 +355,7 @@ form{
 .container h5{
   font-size: 18px;
 }
-    input[type=text],input[type="mail"], select, textarea {
+form input[type=text],input[type="mail"], select,textarea {
   width: 90%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -367,8 +367,15 @@ form{
   color: black;
   outline: 0px;
 }
+.row textarea{
+  width: 90%;
+}
+form input[type="email"]{
+  width: 90%;
 
-input[type=submit] {
+}
+
+form input[type=submit] {
   color: black;
   padding: 12px 20px;
   border: none;
@@ -376,6 +383,22 @@ input[type=submit] {
   cursor: pointer;
   width: 90%;
 }
+ nav .navbar .nav-links{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    display: block;
+    max-width: 270px;
+    width: 100%;
+    background: black;
+    line-height: 40px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+    z-index: 1000;
+    overflow: auto;
+    overflow-x: hidden;
+  }
 }
 @media (max-width:370px){
   nav .navbar .nav-links{
