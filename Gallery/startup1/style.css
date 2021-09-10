@@ -327,7 +327,9 @@ nav .navbar .links li .sub-menu li{
 .container h2{
   font-size: 24px;
 }
-
+form{
+  margin-top:15px
+  }
 
   .logo  img{
     width: 240px;
