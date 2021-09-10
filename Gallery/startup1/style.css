@@ -345,7 +345,7 @@ nav .navbar .links li .sub-menu li{
   width: 100%;
 }
 .container .row  .col-sm-6 a button{
- margin-left: 80px;
+ margin-left: 60px;
  text-align: center;
  
 }
@@ -356,7 +356,7 @@ form{
   font-size: 18px;
 }
 form input[type=text],input[type="mail"], select,textarea {
-  width: 90%;
+  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -368,10 +368,10 @@ form input[type=text],input[type="mail"], select,textarea {
   outline: 0px;
 }
 .row textarea{
-  width: 90%;
+  width: 100%;
 }
 form input[type="email"]{
-  width: 90%;
+  width: 100%;
 
 }
 
@@ -388,7 +388,25 @@ form input[type=submit] {
     top: 0;
     left: -100%;
     display: block;
-    max-width: 250px;
+    max-width: 270px;
+    width: 100%;
+    background: black;
+    line-height: 40px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+    z-index: 1000;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 400px){
+   nav .navbar .nav-links{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    display: block;
+    max-width: 270px;
     width: 100%;
     background: black;
     line-height: 40px;
