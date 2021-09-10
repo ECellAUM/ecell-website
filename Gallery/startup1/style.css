@@ -327,9 +327,7 @@ nav .navbar .links li .sub-menu li{
 .container h2{
   font-size: 24px;
 }
-form{
-  margin-top:15px
-  }
+
 
   .logo  img{
     width: 240px;
@@ -352,7 +350,7 @@ form{
  
 }
 form{
-  margin-left: 0px;
+  margin-left: 15px;
 }
 .container h5{
   font-size: 18px;
@@ -421,9 +419,7 @@ form input[type=submit] {
   }
 }
 @media (max-width:370px){
-  nav .navbar .nav-links{
-  max-width: 100%;
-} 
+  
 .links a:hover{
   border-bottom: none;
 }
