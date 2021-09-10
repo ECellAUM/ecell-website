@@ -356,7 +356,7 @@ form{
   font-size: 18px;
 }
 form input[type=text],input[type="mail"], select,textarea {
-  width: 100%;
+  width: 90%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -368,10 +368,10 @@ form input[type=text],input[type="mail"], select,textarea {
   outline: 0px;
 }
 .row textarea{
-  width: 100%;
+  width: 90%;
 }
 form input[type="email"]{
-  width: 100%;
+  width: 90%;
 
 }
 
