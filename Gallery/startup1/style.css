@@ -329,10 +329,10 @@ nav .navbar .links li .sub-menu li{
 }
 
 
-  .logo a img{
+  .logo  img{
     width: 240px;
   margin-top: 10px;
-  margin-left: 25px;
+  margin-left: 5px;
 }
   .sidebar-logo  i,
     .navbar .bx-menu{
