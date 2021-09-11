@@ -1,3 +1,3 @@
 # ecellaum
 
-Smit is a member of this project
+Website link: https://ecellaum.github.io/ecell-website/
