@@ -119,7 +119,7 @@ nav .navbar .links li:hover .js-sub-menu{
   line-height: 40px;
 }
 .navbar .links li .htmlCss-more-sub-menu{
-   line-height: 40px;
+   line-height: 40px; 
 }
 .navbar .links li .sub-menu .more-sub-menu{
   position: absolute;
@@ -343,12 +343,12 @@ nav .navbar .links li .sub-menu li{
   margin: 5px;
 }
 
-
+ 
 }
 @media (max-width:370px){
   nav .navbar .nav-links{
   max-width: 100%;
-}
+} 
 .links a:hover{
   border-bottom: none;
 }
@@ -371,7 +371,7 @@ nav .navbar .links li .sub-menu li{
 }
 
 .header{
-
+ 
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www.amity.edu/mumbai/images/mumbai.jpg);
     min-height: 100vh;
     animation: slider 9s infinite linear;
@@ -387,14 +387,14 @@ nav .navbar .links li .sub-menu li{
 }
 @keyframes slider{
     0%{
-       background-image:url(back.png);
-      background-size: 100% 100%;
+       background-image:url(back.png);  
+      background-size: 100% 100%; 
     }
     10%{
+      
+      background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://www.amity.edu/mumbai/images/university.jpg); 
 
-      background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://www.amity.edu/mumbai/images/university.jpg);
-
-       background-size: 100% 100%;
+       background-size: 100% 100%; 
      }
 
 }
@@ -478,7 +478,7 @@ nav .navbar .links li .sub-menu li{
 .description .row .col-sm-6 p{
   font-size: 15px;
   margin-top: 20px;
-
+ 
 }
 .container .welcome{
   margin-left: 40px;
@@ -492,7 +492,7 @@ nav .navbar .links li .sub-menu li{
 .container .welcome .row .col-sm-4 h3{
   text-align: center;
   display: block;
-
+ 
 }
 .container .welcome .row .col-sm-4 .fa-cogs{
   font-size: 70px;
@@ -522,7 +522,7 @@ nav .navbar .links li .sub-menu li{
   position: relative;
   cursor: pointer;
 
-
+ 
   --border-size: 2px;
   --accent-color: #0AF;
 }
@@ -587,7 +587,7 @@ nav .navbar .links li .sub-menu li{
   text-align: center;
 }
 .frame{
- background:#0a305f;
+ background:#0a305f; 
  padding: 20px;
 }
 .wrapper{
@@ -605,7 +605,7 @@ nav .navbar .links li .sub-menu li{
   line-height: 250px;
   font-size: 90px;
   font-weight: 600;
-
+ 
   box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
 }
 
@@ -660,17 +660,7 @@ nav .navbar .links li .sub-menu li{
   text-align: center;
   padding: 5px;
 }
-
-.alert{
-  text-align: center;
-  padding:10px;
-  background-color: green;
-  color: white;
-  margin-bottom: 10px;
-  display: none;
-}
-
-input[type=text],input[type="email"], select, textarea {
+input[type=text],input[type="mail"], select, textarea {
   width: 50%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -763,19 +753,19 @@ display: inline-flex;
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
+  box-shadow: inset 0 0 5px grey; 
   border-radius: 10px;
 }
-
+ 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: black;
+  background: black; 
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-
+   
 }
 .icons{
   top: 50%;
@@ -786,7 +776,7 @@ display: inline-flex;
 }
 .icons ul{
   padding: initial;
-}
+} 
 .btn{
   outline: 0px;
 }
@@ -801,7 +791,7 @@ display: inline-flex;
   font-size: 18px;
   align-items: center;
   justify-content: center;
-
+  
 }
 .facebook{
   background: #3b5998;
@@ -827,7 +817,7 @@ background: #fb3958;
   display: none;
 }
 .fa-arrow-up{
-
+  
   padding: 15px;
   border-radius: 40px;
   font-size: 24px;
@@ -842,7 +832,7 @@ background: #fb3958;
 /*Media Queries*/
  @media screen and (max-width: 400px){
     nav{
-
+ 
   width:100%;
   position:absolute;
 }
@@ -856,7 +846,7 @@ background: #fb3958;
   .logo a img{
     width: 240px;
   margin-top: 10px;
-
+ 
 
   }
   .navbar i .bx-menu{
@@ -878,8 +868,8 @@ background: #fb3958;
     overflow: auto;
     overflow-x: hidden;
   }
-
-
+  
+  
      #tag blockquote{
       font-size: 14px;
 
@@ -900,8 +890,8 @@ background: #fb3958;
     }
     @keyframes slider{
     0%{
-       background-image:url(back.png);
-      background-size: 100% 100%;
+       background-image:url(back.png);  
+      background-size: 100% 100%; 
           animation: slider 3s infinite linear;
 
       min-height: 100vh;
@@ -916,13 +906,13 @@ background: #fb3958;
 
     }
     10%{
+      
+      background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://www.amity.edu/mumbai/images/university.jpg); 
 
-      background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://www.amity.edu/mumbai/images/university.jpg);
-
-       background-size: 100% 100%;
+       background-size: 100% 100%; 
            animation: slider 3s infinite linear;
 
-        background-size: 100% 100%;
+        background-size: 100% 100%; 
       min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -992,7 +982,7 @@ input[type=submit] {
   font-size: 24px;
 }
 .fa-arrow-up{
-
+  
   padding: 6px;
   border-radius: 40px;
   font-size: 14px;
@@ -1010,7 +1000,7 @@ input[type=submit] {
   nav{
     width: 100%;
   position: absolute;
-
+ 
 }
 
   .container .row .col-sm-6 iframe{
@@ -1054,8 +1044,8 @@ input[type=submit] {
 }
     @keyframes slider{
     0%{
-       background-image:url(back.png);
-      background-size: 100% 100%;
+       background-image:url(back.png);  
+      background-size: 100% 100%; 
           animation: slider 3s infinite linear;
 
       min-height: 100vh;
@@ -1070,13 +1060,13 @@ input[type=submit] {
 
     }
     10%{
+      
+      background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://www.amity.edu/mumbai/images/university.jpg); 
 
-      background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://www.amity.edu/mumbai/images/university.jpg);
-
-       background-size: 100% 100%;
+       background-size: 100% 100%; 
            animation: slider 3s infinite linear;
 
-        background-size: 100% 100%;
+        background-size: 100% 100%; 
       min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -1089,7 +1079,7 @@ input[type=submit] {
      }
 
 }
-
+    
 #about h2:after {
   content: "";
   display: block;
@@ -1141,7 +1131,7 @@ input[type=submit] {
   font-size: 14px;
 }
 .fa-arrow-up{
-
+  
   padding: 8px;
   border-radius: 40px;
   font-size: 14px;
@@ -1154,7 +1144,7 @@ input[type=submit] {
 
 
 /*media queries for 610px*/
-
+ 
 
 /*@media screen and (max-width: 600px) and (min-width: 480px){
   .container .welcome .row{
@@ -1178,7 +1168,7 @@ input[type=submit] {
      margin-left: -30px;
      margin-top: -7px;
     }
-
+  
     #tag blockquote{
       font-size: 16px;
 
@@ -1208,8 +1198,8 @@ input[type=submit] {
 }
     @keyframes slider{
     0%{
-       background-image:url(back.png);
-      background-size: 100% 100%;
+       background-image:url(back.png);  
+      background-size: 100% 100%; 
       min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -1222,11 +1212,11 @@ input[type=submit] {
 
     }
     10%{
+      
+      background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://www.amity.edu/mumbai/images/university.jpg); 
 
-      background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://www.amity.edu/mumbai/images/university.jpg);
-
-       background-size: 100% 100%;
-        background-size: 100% 100%;
+       background-size: 100% 100%; 
+        background-size: 100% 100%; 
       min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -1239,7 +1229,7 @@ input[type=submit] {
      }
 
 }
-
+    
 #about h2:after {
   content: "";
   display: block;
@@ -1291,7 +1281,7 @@ input[type=submit] {
   font-size: 14px;
 }
 .fa-arrow-up{
-
+  
   padding: 10px;
   border-radius: 40px;
   font-size: 18px;
@@ -1305,8 +1295,8 @@ input[type=submit] {
   @media screen and (max-width: 680px){
     @keyframes slider{
     0%{
-       background-image:url(back.png);
-      background-size: 100% 100%;
+       background-image:url(back.png);  
+      background-size: 100% 100%; 
       min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -1319,11 +1309,11 @@ input[type=submit] {
 
     }
     10%{
+      
+      background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://www.amity.edu/mumbai/images/university.jpg); 
 
-      background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://www.amity.edu/mumbai/images/university.jpg);
-
-       background-size: 100% 100%;
-        background-size: 100% 100%;
+       background-size: 100% 100%; 
+        background-size: 100% 100%; 
       min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -1341,8 +1331,8 @@ input[type=submit] {
   @media screen and (max-width: 800px){
      @keyframes slider{
     0%{
-       background-image:url(back.png);
-      background-size: 100% 100%;
+       background-image:url(back.png);  
+      background-size: 100% 100%; 
       min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -1355,11 +1345,11 @@ input[type=submit] {
 
     }
     10%{
+      
+      background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://www.amity.edu/mumbai/images/university.jpg); 
 
-      background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(https://www.amity.edu/mumbai/images/university.jpg);
-
-       background-size: 100% 100%;
-        background-size: 100% 100%;
+       background-size: 100% 100%; 
+        background-size: 100% 100%; 
       min-height: 100vh;
     background-position: center;
     background-size: cover;
