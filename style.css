@@ -960,7 +960,7 @@ background: #fb3958;
   top: 145%;
   position: absolute;
 }
-input[type=text],input[type="mail"], select, textarea {
+input[type=text],input[type="email"], select, textarea {
   width: 90%;
   padding: 12px;
   border: 1px solid #ccc;
