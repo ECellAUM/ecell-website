@@ -662,6 +662,8 @@ nav .navbar .links li .sub-menu li{
 }
 
 .alert{
+  width:50%;
+  align-self: center;
   text-align: center;
   padding:10px;
   background-color: green;
@@ -1113,6 +1115,17 @@ input[type=submit] {
 .container .row .col-sm-6 img{
   width: 80%;
 }
+
+.alert{
+  width:90%;
+  text-align: center;
+  padding:10px;
+  background-color: green;
+  color: white;
+  margin-bottom: 10px;
+  display: none;
+}
+
 input[type=text],input[type="email"], select, textarea {
   width: 90%;
   padding: 12px;
