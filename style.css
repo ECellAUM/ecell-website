@@ -713,7 +713,7 @@ textarea{
   color: white;
     padding: 10px;
     align-items: center;
-    margin: 4px;
+    margin: 5px;
 
 }
 .col-sm-2 li a i:hover{
@@ -725,7 +725,7 @@ textarea{
 }
 .col-sm-2 li a .fa-instagram{
   color: #fb3958;
-   border:1px solid #fb3958;
+  border:1px solid #fb3958;
 }
 .col-sm-2 li a .fa-linkedin-square{
   color: #0e76a8;
@@ -735,7 +735,6 @@ textarea{
   color: #1DA1F2;
   border: 1px solid  #1DA1F2;
 }
-
 .footer{
   margin-top: 15px;
 }
