@@ -522,27 +522,33 @@ textarea{
   color: #1DA1F2;
   border: 1px solid  #1DA1F2;
 }
-.btn-lg{
-  margin-top: 30px;
-  margin-left: 130px;
+
+.footer{
+  margin-top: 15px;
 }
-.btn-outline-primary:hover{
-  background-color: #0a305f;
-  color: whitesmoke;
+.col-sm-2 ul{
+  list-style: none;
+  display: inline-flex;
+  cursor: pointer;
+  margin: 3px;
+}
+.fa:hover{
+  transition:0.2 ease;
+}
+.col-sm-2 li a img{
+display: inline-flex;
+ align-items: center;
+
 
 }
-.col-sm-2 li a i:hover{
-  transform: scale(1.1);
+.col-sm-2 li a img:hover{
+  transform: scale(1.5);
 }
 .col-sm-2 a{
   list-style: none;
 }
-#subscription{
-  text-align: center;
-}
 .footer{
   background-color: black;
-  margin-top: 15px;
 }
 ::-webkit-scrollbar {
   width: 8px;
