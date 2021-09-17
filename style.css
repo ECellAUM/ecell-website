@@ -709,11 +709,11 @@ textarea{
 
 }
 .col-sm-2 li a i{
-  font-size: 28px;
+  font-size: 32px;
   color: white;
     padding: 10px;
     align-items: center;
-    margin: 2px;
+    margin: 4px;
 
 }
 .col-sm-2 li a i:hover{
@@ -721,15 +721,19 @@ textarea{
 }
 .col-sm-2 li a .fa-facebook{
   color: #4267B2;
+  border: 1px solid #4267B2;
 }
 .col-sm-2 li a .fa-instagram{
   color: #fb3958;
+   border:1px solid #fb3958;
 }
 .col-sm-2 li a .fa-linkedin-square{
   color: #0e76a8;
+  border: 1px solid #0e76a8;
 }
 .col-sm-2 li a .fa-twitter{
   color: #1DA1F2;
+  border: 1px solid  #1DA1F2;
 }
 
 .footer{
