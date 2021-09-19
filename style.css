@@ -483,10 +483,10 @@ nav .navbar .links li .sub-menu li{
 .container .welcome{
   margin-left: 40px;
 }
-
+/* #6195FF */
 .container .welcome .row .col-sm-4 .fa-lightbulb-o{
   font-size: 70px;
-  color: #6195FF;
+  color: #E8851E;
   margin-bottom: 10px;
 }
 .container .welcome .row .col-sm-4 h3{
@@ -496,13 +496,13 @@ nav .navbar .links li .sub-menu li{
 }
 .container .welcome .row .col-sm-4 .fa-cogs{
   font-size: 70px;
-  color: #6195FF;
+  color: #E8851E;
   margin-bottom: 10px;
 
 }
 .container .welcome .row .col-sm-4 .fa-snowflake-o{
   font-size: 70px;
-  color: #6195FF;
+  color: #E8851E;
   margin-bottom: 10px;
 
 
