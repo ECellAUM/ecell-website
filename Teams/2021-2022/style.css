@@ -339,6 +339,13 @@ border-bottom: 4px solid orange;
   10%{background-image: url(https://www.tredence.com/wp-content/uploads/2018/02/person_on_laptop.jpg); background-size: 100% 100%; }
 }
 
+@media (max-width: 400px) {
+  .header{
+    min-height: 50vh;
+    height: 50vh;
+  }
+}
+
 /* CSS for navigation bar ENDS here */
 
 /* CSS for quote */
@@ -349,9 +356,20 @@ border-bottom: 4px solid orange;
   font-style: oblique;
   font-family:monospace;
   margin-top: -200px;
+  padding: 20%;
 }
-
+@media screen and (max-width:400px){
+  .quote h1{
+    font-size: 20px;
+    margin-top: 200px;
+  }
+}
 /* CSS for scroll icon */
+@media (max-width:400px){
+  .arrows{
+    display: none;
+  }
+}
 
 .arrows{
     position: absolute;
@@ -421,6 +439,13 @@ border-bottom: 4px solid orange;
     }
 }
 
+@media (max-width: 360px) {
+    .custom-shape-divider-bottom-1630865101 svg {
+        width: calc(100% + 1.3px);
+        height: 80px;
+    }
+}
+
 /* Css for Jumbotron */
 
 .jumbotron {
@@ -432,6 +457,7 @@ border-bottom: 4px solid orange;
   background-color: white;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-bottom: 0;
 }
 #main-jumbotron .team-heading{
   border-right: 10px solid orange;
@@ -442,7 +468,6 @@ border-bottom: 4px solid orange;
   color: #0a305f;
   font-size: 30px;
 }
-
 
 /* CSS for cards STARTS here */
 
@@ -465,7 +490,7 @@ border-bottom: 4px solid orange;
 }
 .profile-image img{
   width: 100%;
-  height: auto;
+  height: 250px;
   border-radius: 10px;
   filter:brightness(100%);
   transition: 0.3s ease;
@@ -553,6 +578,13 @@ border-bottom: 4px solid orange;
     }
 }
 
+@media (max-width: 360px) {
+    .custom-shape-divider-top-1630866602 svg {
+        width: calc(100% + 1.3px);
+        height: 80px;
+    }
+}
+
 /* CSS for Footer STARTS here */
 
 .col-sm-2{
@@ -619,6 +651,11 @@ textarea{
   margin:0px;
   margin-top: 50px;
   padding-top: 300px;
+}
+@media (max-width:400px) {
+  .footer{
+    padding-top: 100px;
+  }
 }
 
 /* CSS for footer ENDS here */
