@@ -2,7 +2,7 @@
 */
 
 .header{
- 
+
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://media.istockphoto.com/vectors/vector-circle-tech-with-light-blue-and-lamp-bulb-on-technology-vector-id1172940354?k=20&m=1172940354&s=612x612&w=0&h=N6EXGbVnerbhh0rbqVnYFoYIC-GQ_tMZy9_olgzbgNI=);
     min-height: 100vh;
     background-position: center;
@@ -31,6 +31,17 @@
   position: absolute;
 }
 
+.alert{
+  width:50%;
+  text-align: center;
+  padding:10px;
+  background-color: green;
+  color: white;
+  margin-bottom: 10px;
+
+  /* display: none; */
+}
+
 /*Register button*/
 
 .register_button{
@@ -39,7 +50,7 @@ position: relative;
 margin-left: 120px;
 margin-top: 40px;
 
-  
+
 }
 
 .register_button a{
@@ -50,7 +61,7 @@ margin-top: 40px;
   color: white;
 }*/
 .register_button button:hover{
- 
+
   background-color: #0a305f;
 
 }
@@ -428,7 +439,7 @@ form input[type=submit] {
   line-height: 250px;
   font-size: 90px;
   font-weight: 600;
- 
+
   box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
 }
 
@@ -571,7 +582,7 @@ nav .navbar .links li:hover .js-sub-menu{
   line-height: 40px;
 }
 .navbar .links li .htmlCss-more-sub-menu{
-   line-height: 40px; 
+   line-height: 40px;
 }
 .navbar .links li .sub-menu .more-sub-menu{
   position: absolute;
@@ -671,7 +682,7 @@ nav .navbar .links li:hover .js-sub-menu{
 }
 @media (max-width:800px){
   nav{
-     position: relative; 
+     position: relative;
   }
   .navbar .bx-menu{
     display: block;
@@ -836,7 +847,7 @@ nav .navbar .links li .sub-menu li{
 }
 form{
   margin-top: 30px;
-  
+
 }
 
 .col-sm-2 li a i{
@@ -903,17 +914,17 @@ display: inline-flex;
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: black; 
+  background: black;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-   
+
 }
