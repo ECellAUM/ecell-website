@@ -6,10 +6,16 @@
   font-family: 'Poppins', sans-serif;
 }
 html{
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body{
  
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+.fa-home{
+  margin: 20px;
+  font-size: 20px;
 }
 nav{
   position: fixed;
@@ -17,8 +23,8 @@ nav{
   left: 0;
   width: 100%;
   height: 100%;
-  height: 70px;
-  background:  black ;
+  height: 85px;
+  background: #000000;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   z-index: 99;
 }
@@ -40,11 +46,12 @@ nav .navbar{
   font-weight: 600;
 }
 .logo img{
-	width: 200px;
-	margin-top: 15px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: -38px;
 }
 nav .navbar .nav-links{
-  line-height: 70px;
+  line-height: 90px;
   height: 100%;
 }
 nav .navbar .links{
@@ -67,7 +74,7 @@ nav .navbar .links li a{
   font-weight: 500;
 }
 nav .navbar .links li a:hover{
-	border-bottom: 4px solid orange;
+  border-bottom: 4px solid orange;
 }
 .links li:hover .htmlcss-arrow,
 .links li:hover .js-arrow{
@@ -78,7 +85,7 @@ nav .navbar .links li .arrow{
   /* background: red; */
   height: 100%;
   width: 22px;
-  line-height: 70px;
+  line-height: 90px;
   text-align: center;
   display: inline-block;
   color: #fff;
@@ -86,7 +93,7 @@ nav .navbar .links li .arrow{
 }
 nav .navbar .links li .sub-menu{
   position: absolute;
-  top: 70px;
+  top: 90px;
   left: 0;
   line-height: 40px;
   background:black ;
@@ -112,12 +119,12 @@ nav .navbar .links li:hover .js-sub-menu{
   line-height: 40px;
 }
 .navbar .links li .htmlCss-more-sub-menu{
-  /* line-height: 40px; */
+   line-height: 40px; 
 }
 .navbar .links li .sub-menu .more-sub-menu{
   position: absolute;
   top: 0;
-  left: 100%;
+  left: 102%;
   border-radius: 0 4px 4px 4px;
   z-index: 1;
   display: none;
@@ -190,6 +197,9 @@ nav .navbar .links li:hover .js-sub-menu{
 .navbar .bx-menu{
   display: none;
 }
+.search-box{
+  display: none;
+}
 @media (max-width:920px) {
   nav .navbar{
     max-width: 100%;
@@ -197,7 +207,7 @@ nav .navbar .links li:hover .js-sub-menu{
   }
 
   nav .navbar .logo a{
-    font-size: 27px;
+    font-size: 25px;
   }
   nav .navbar .links li{
     padding: 0 10px;
@@ -221,17 +231,20 @@ nav .navbar .links li:hover .js-sub-menu{
     display: block;
     max-width: 270px;
     width: 100%;
-    background: #8c8c8c;
+    background: black;
     line-height: 40px;
     padding: 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.5s ease;
     z-index: 1000;
+    overflow: auto;
+    overflow-x: hidden;
   }
   .navbar .nav-links .sidebar-logo{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
   }
   .sidebar-logo .logo-name{
     font-size: 25px;
@@ -390,25 +403,7 @@ form{
 textarea{
 	margin-left: 0px;
 }
-.col-sm-2 li a i{
-	font-size: 20px;
-	color: white;
-	border: 1px solid white;
-    padding: 10px;
-    align-items: center;
 
-
-}
-.col-sm-2 li a i:hover{
-	transform: scale(1.1);
-}
-.col-sm-2 a{
-	list-style: none;
-}
-.footer{
-	background-color: black;
-  margin-top: 15px;
-}
 .container h2 {
   font-size: 24px;
 }
@@ -451,6 +446,62 @@ textarea{
 
   text-align: center;
 }
+.col-sm-2 li a i{
+  font-size: 32px;
+  color: white;
+    padding: 10px;
+    align-items: center;
+    margin: 5px;
+
+}
+.col-sm-2 li a i:hover{
+  transform: scale(1.1);
+}
+.col-sm-2 li a .fa-facebook{
+  color: #4267B2;
+  border: 1px solid #4267B2;
+}
+.col-sm-2 li a .fa-instagram{
+  color: #fb3958;
+  border:1px solid #fb3958;
+}
+.col-sm-2 li a .fa-linkedin-square{
+  color: #0e76a8;
+  border: 1px solid #0e76a8;
+}
+.col-sm-2 li a .fa-twitter{
+  color: #1DA1F2;
+  border: 1px solid  #1DA1F2;
+}
+
+.footer{
+  margin-top: 50px;
+}
+.col-sm-2 ul{
+  list-style: none;
+  display: inline-flex;
+  cursor: pointer;
+  margin: 3px;
+}
+.fa:hover{
+  transition:0.2 ease;
+}
+.col-sm-2 li a img{
+display: inline-flex;
+ align-items: center;
+
+
+}
+.col-sm-2 li a img:hover{
+  transform: scale(1.5);
+}
+.col-sm-2 a{
+  list-style: none;
+}
+.footer{
+  background-color: black;
+}
+
 .accordion a.active::after {
   font-family: 'Ionicons';
   content: '\f209';
@@ -498,3 +549,103 @@ textarea{
 ::-webkit-scrollbar-thumb:hover {
    
 }
+@media screen and (max-width: 480px){
+  html{
+    overflow-x: hidden;
+}
+   nav{
+  
+  width: 100%;
+  position: absolute;
+}
+.container h2{
+  font-size: 24px;
+}
+
+
+  .logo  img{
+    width: 240px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+  .sidebar-logo  i,
+    .navbar .bx-menu{
+      font-size: 25px;
+      color: #fff;
+     margin-left: -40px;
+     margin-top: -7px;
+    }
+      nav .navbar .nav-links{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    display: block;
+    max-width: 270px;
+    width: 100%;
+    background: black;
+    line-height: 40px;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+    z-index: 1000;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+  .container h1{
+    font-size: 32px;
+
+  }
+  .container .row .col-sm-6 .image img{
+    width: 100%;
+}
+.container .row .col-sm-6 h2{
+  margin-top: -100px;
+  
+}
+.container .row .col-sm-6 h2{
+  font-size: 24px;
+  text-align: center;
+}
+.accordion .accordion-item a{
+  font-size: 18px;
+}
+.container h4{
+  font-size: 17px;
+  margin-left: -10px;
+}
+   input[type=text],input[type="email"], input[type="number"],select, textarea {
+  
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: black;
+  outline: 0px;
+}
+
+input[type="mail"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  color: black;
+  outline: 0px;
+}
+input[type=submit] {
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+    }
