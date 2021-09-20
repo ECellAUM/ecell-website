@@ -17,18 +17,52 @@
 
 }
 .header h1{
-  text-align: center;
   position: relative;
 }
-.header h1:after {
+.header h3{
+  padding-top: 10px;
+  width: auto;
+}
+.innovation_week_header{
+  width: fit-content;
+}
+/* .header h1:after {
   content: "";
   display: block;
-  width: 80px;
+  width: 370px;
   height: 4px;
   background: orange;
-  right: 47%;
-  top: 130%;
+  right: 69%;
+  top: 120%;
   position: absolute;
+} */
+
+.innovation_week_header h3{
+  border-top: 4px orange solid;
+}
+
+/* .solid_line{
+  padding-left: 0;
+  margin: 0;
+  display: block;
+  width: 300px;
+  height: 4px;
+  background: orange;
+  content: "";
+  right: 93%;
+  top: 120%;
+  position: absolute;
+} */
+
+.innovation_week_header{
+
+  padding-top: 250px;
+  padding-left: 10%;
+}
+@media (max-width: 400px) {
+  .innovation_week_header{
+    padding-left: 5%;
+  }
 }
 
 .alert{
@@ -43,13 +77,16 @@
 
 /*Register button*/
 
+
+
 .register_button{
-  float: left;
-position: relative;
-margin-left: 120px;
-margin-top: 40px;
-
-
+  padding-top: 20px;
+  padding-left: 10%;
+}
+@media (max-width:400px){
+  .register_button{
+    padding-left: 5%;
+  }
 }
 
 .register_button a{
@@ -73,6 +110,18 @@ margin-top: 40px;
   width: 100%;
   color: black;
 }
+
+.poster{
+  align-content: center;
+}
+
+.poster img{
+  height: auto;
+  margin: 50px;
+  width: 400px
+}
+
+
 .upcoming{
   text-align: center;
 
@@ -107,6 +156,15 @@ margin-bottom: 15px;
   top: 130%;
   position: absolute;
 }
+
+.problem-posters .column{
+
+  padding-top: 20px;
+  margin: 1%;
+  width: 23%;
+  height: auto;
+}
+
 .speaker h1{
   text-align: center;
   position: relative;
@@ -156,6 +214,7 @@ margin-bottom: 15px;
   text-align: center;
   color: black;
   margin-top: 25px;
+  border-radius: 10px;
 }
 img {
   vertical-align: middle;
@@ -237,13 +296,20 @@ img {
   opacity: 1;
 }
 /*Timeline*/
+.timeline-header{
+  background: #111;
+  padding-top: 20px;
+  color: whitesmoke;
+  padding-bottom:10px;
+}
+
 .timeline-header h1{
 text-align: center;
 margin-top: 15px;
 margin-bottom: 10px;
 }
 .time{
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 10px;
   min-height: 50vh;
   width: 100%;
@@ -259,6 +325,7 @@ margin-bottom: 10px;
   max-width: 800px;
   margin: 0 auto;
   position: relative;
+
 }
 
 .timeline ul {

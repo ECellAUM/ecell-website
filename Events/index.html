@@ -131,16 +131,16 @@
     </div>
   </nav>
   <div class="header">
-  <div class="container" style="margin-top:80px;">
-    <h1 style="margin-top: 200px;font-size: 50px;float: left;margin-left: 0px;" id="innovation_week">Innovation Week</h1>
-    <h3 id="starts"style="margin-top: 300px;margin-left: 0px;" >Starts <span style="font-size: 28px;">23</span>rd September - <span  style="font-size: 28px;">28</span>th September</h3>
-    </div>
+  	<div class="innovation_week_header" >
+    	<h1 id="innovation_week_headiing">Innovation Week</h1>
+			<!-- <div class="solid_line"></div> -->
+			<h3 id="time_period"><span>23</span>rd September - <span>28</span>th September</h3>
+  	</div>
 
     <div class="register_button ">
-   <a href="#register_form" class="btn btn-success btn-lg">Register Now </a>
-
-</div>
-</div>
+   		<a href="#registration" class="btn btn-success btn-lg">Register Now </a>
+ 		</div>
+	</div>
 
 
 
@@ -151,12 +151,14 @@
  <div class="container countdown jumbotron">
    00 : 00 : 00 : 00
  </div>
+
  <div class="container" style="margin-top:20px;">
   <div class="row">
-    <div class="col-sm-6">
+
+  <!-- <div class="col-sm-6">
 
   <div class="mySlides">
-    <div class="numbertext"></div>
+  	<div class="numbertext"></div>
     <img src="images\poster.png" style="width:80%;height:80%;">
   </div>
 
@@ -169,7 +171,8 @@
     <div class="numbertext"></div>
     <img src="images\problem1.png"  style="width:80%;height:80%;">
   </div>
-  <div class="mySlides">
+
+	<div class="mySlides">
     <div class="numbertext"></div>
     <img src="images\problem3.png"  style="width:80%;height:80%;">
   </div>
@@ -197,14 +200,20 @@
 
   </div>
 
+</div> -->
+		<div class="col-sm-6">
+			<div class="poster">
+				<img src="images\innovation.png" alt="Poster of Innovation Week">
+			</div>
+		</div>
 
-    </div>
     <div class="col-sm-6" style="margin-top:40px;" id="about">
-      <h2 style="margin-bottom: 20px;">About the event</h2>
-      <p>Innovation Week is a celebration of creators, risk-takers, and innovators. The week bridges the gap between local entrepreneurs, talent, and industry networks; ultimately accelerating our already thriving startup community. We know that innovation cannot happen without deep collaboration between students and industry connections. With our various events, competitions and webinars, we aim to start our new entrepreneurial year by inspiring the community.
-     Industry Challenges will be promoted across all the disciplines through entrepreneurial case studies and would help intrigue critical and entrepreneurial thinking.
-     This year will serve as a catalyst for aspiring entrepreneurs to engage with industry leaders by participating in competitions, attending faculty conferences on the scope of Entrepreneurship in each sector of interest, and conversing about E-future cell's goals.</p>
-        <a href="#register_form" class="btn btn-success btn-lg">Register Now →</a>
+      <h2 style="margin-bottom: 20px; font-size:35px">About the event</h2>
+      <p style="font-size:20px">Innovation Week is a celebration of creators, risk-takers, and innovators. The week bridges the gap between local entrepreneurs, talent, and industry networks; ultimately accelerating our already thriving startup community. We know that innovation cannot happen without deep collaboration between students and industry connections. With our various events, competitions and webinars, we aim to start our new entrepreneurial year by inspiring the community.
+     		Industry Challenges will be promoted across all the disciplines through entrepreneurial case studies and would help intrigue critical and entrepreneurial thinking.
+     		This year will serve as a catalyst for aspiring entrepreneurs to engage with industry leaders by participating in competitions, attending faculty conferences on the scope of Entrepreneurship in each sector of interest, and conversing about E-future cell's goals.</p>
+
+			<a href="#register_form" class="btn btn-success btn-lg" style="margin:30px 0px;">Register Now →</a>
     </div>
 
   </div>
@@ -212,9 +221,9 @@
  </div>
 <!--  Timeline
  -->
- <div class="container timeline-header">
-  <h1>Timeline</h1>
 
+ <div class="container-fluid timeline-header">
+  <h1>Timeline</h1>
  </div>
  <div class="container time">
   <div class="timeline">
@@ -253,10 +262,33 @@ While explaining their solutions participants will be asked to switch on their c
     </ul>
   </div>
 </div>
+
 <div class="container speaker">
-  <h1>Speaker</h1>
+  <h1>Problem Statements</h1>
 </div>
-  <div class="container" style="margin-top:10px;">
+
+
+<div class="container problem-posters">
+	<div class="row">
+		<div class="column">
+			<img class="demo cursor" src="images\poster.png" style="width:100%" onclick="currentSlide(1)" >
+		</div>
+		<div class="column">
+			<img class="demo cursor" src="images\problem2.png" style="width:100%" onclick="currentSlide(2)">
+		</div>
+	<!-- </div>
+	<div class="row"> -->
+		<div class="column">
+			<img class="demo cursor" src="images\problem1.png" style="width:100%" onclick="currentSlide(3)">
+		</div>
+		<div class="column">
+			<img class="demo cursor" src="images\problem3.png" style="width:100%" onclick="currentSlide(4)">
+		</div>
+	</div>
+</div>
+
+
+  <!-- <div class="container" style="margin-top:10px;">
   <div class="card">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg/220px-Elon_Musk_Royal_Society_%28crop1%29.jpg" alt="John" width="70%" height="50%"  >
   <h2>Elon Musk</h2>
@@ -271,9 +303,9 @@ While explaining their solutions participants will be asked to switch on their c
 
 </div>
 
-</div>
+</div> -->
 <!-- form -->
-<div class="registration">
+<div class="registration" id='registration'>
 <div class="container" style="margin-top:20px">
   <h1 style="text-align:center;color: white;">Register here for Event</h1>
 	<div class="alert">
