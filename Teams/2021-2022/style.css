@@ -120,7 +120,7 @@ nav .navbar .links li:hover .js-sub-menu{
   line-height: 40px;
 }
 .navbar .links li .htmlCss-more-sub-menu{
-   line-height: 40px; 
+   line-height: 40px;
 }
 .navbar .links li .sub-menu .more-sub-menu{
   position: absolute;
@@ -349,7 +349,7 @@ border-bottom: 4px solid orange;
   10%{background-image: url(https://www.tredence.com/wp-content/uploads/2018/02/person_on_laptop.jpg); background-size: 100% 100%; }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .header{
     min-height: 50vh;
     height: 50vh;
@@ -368,14 +368,14 @@ border-bottom: 4px solid orange;
   margin-top: -200px;
   padding: 20%;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:480px){
   .quote h1{
     font-size: 20px;
     margin-top: 200px;
   }
 }
 /* CSS for scroll icon */
-@media (max-width:400px){
+@media (max-width:480px){
   .arrows{
     display: none;
   }
@@ -449,7 +449,7 @@ border-bottom: 4px solid orange;
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
     .custom-shape-divider-bottom-1630865101 svg {
         width: calc(100% + 1.3px);
         height: 80px;
@@ -467,7 +467,6 @@ border-bottom: 4px solid orange;
   background-color: white;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-bottom: 0;
 }
 #main-jumbotron .team-heading{
   border-right: 10px solid orange;
@@ -673,19 +672,19 @@ textarea{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: black; 
+  background: black;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-   
+
 }
 
 
@@ -703,7 +702,7 @@ textarea{
 
   .logo  img{
     width: 240px;
-  
+
   margin-left: 5px;
 }
   .sidebar-logo  i,
