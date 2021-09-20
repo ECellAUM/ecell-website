@@ -2,7 +2,7 @@
 */
 
 .header{
-
+ 
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://media.istockphoto.com/vectors/vector-circle-tech-with-light-blue-and-lamp-bulb-on-technology-vector-id1172940354?k=20&m=1172940354&s=612x612&w=0&h=N6EXGbVnerbhh0rbqVnYFoYIC-GQ_tMZy9_olgzbgNI=);
     min-height: 100vh;
     background-position: center;
@@ -17,76 +17,29 @@
 
 }
 .header h1{
+  text-align: center;
   position: relative;
 }
-.header h3{
-  padding-top: 10px;
-  width: auto;
-}
-.innovation_week_header{
-  width: fit-content;
-}
-/* .header h1:after {
+.header h1:after {
   content: "";
   display: block;
-  width: 370px;
+  width: 80px;
   height: 4px;
   background: orange;
-  right: 69%;
-  top: 120%;
+  right: 47%;
+  top: 130%;
   position: absolute;
-} */
-
-.innovation_week_header h3{
-  border-top: 4px orange solid;
-}
-
-/* .solid_line{
-  padding-left: 0;
-  margin: 0;
-  display: block;
-  width: 300px;
-  height: 4px;
-  background: orange;
-  content: "";
-  right: 93%;
-  top: 120%;
-  position: absolute;
-} */
-
-.innovation_week_header{
-
-  padding-top: 250px;
-  padding-left: 10%;
-}
-@media (max-width: 400px) {
-  .innovation_week_header{
-    padding-left: 5%;
-  }
-}
-
-.alert{
-  width:50%;
-  text-align: center;
-  padding:10px;
-  background-color: green;
-  color: white;
-  margin-bottom: 10px;
-  display: none;
 }
 
 /*Register button*/
 
-
-
 .register_button{
-  padding-top: 20px;
-  padding-left: 10%;
-}
-@media (max-width:400px){
-  .register_button{
-    padding-left: 5%;
-  }
+  float: left;
+position: relative;
+margin-left: 120px;
+margin-top: 40px;
+
+  
 }
 
 .register_button a{
@@ -97,7 +50,7 @@
   color: white;
 }*/
 .register_button button:hover{
-
+ 
   background-color: #0a305f;
 
 }
@@ -110,15 +63,50 @@
   width: 100%;
   color: black;
 }
+.hover{
+  color: #222;
+  padding: .5em 1em;
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: pointer;
 
-.poster{
-  align-content: center;
+ 
+  --border-size: 2px;
+  --accent-color: #0AF;
+}
+.col-sm-6: hover{
+  transition: 1s;
+}
+.hover.col-sm-6::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-color:black;
+
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
 }
 
-.poster img{
-  height: auto;
-  margin: 50px;
-  width: 400px
+.hover.col-sm-6:hover::before,
+.hover.col-sm-6:focus::before {
+  transform: scaleX(1);
+}
+
+.hover.col-sm-6{
+  transition: color 300ms ease-in-out;
+  z-index: 1;
+}
+
+
+.hover.col-sm-6:hover,
+.hover.col-sm-6:focus {
+  color: white;
 }
 
 
@@ -156,15 +144,6 @@ margin-bottom: 15px;
   top: 130%;
   position: absolute;
 }
-
-.problem-posters .column{
-
-  padding-top: 20px;
-  margin: 1%;
-  width: 23%;
-  height: auto;
-}
-
 .speaker h1{
   text-align: center;
   position: relative;
@@ -208,14 +187,45 @@ margin-bottom: 15px;
   position: absolute;
 
 }
+.alert{
+  width:50%;
+  align-self: center;
+  text-align: center;
+  padding:10px;
+  background-color: green;
+  color: white;
+  margin-bottom: 10px;
+  display: none;
+  margin-left: 290px;
+  text-align: center;
+}
 
+.alert{
+  text-align: center;
+}
+@media screen and (max-width: 480px){
+  .alert{
+  width:100%;
+  align-self: center;
+  text-align: center;
+  padding:10px;
+  background-color: green;
+  color: white;
+  margin-bottom: 10px;
+  display: none;
+  
+  margin-left: 2px;
+  text-align: center;
+}
+
+}
 .countdown{
   font-size: 50px;
   text-align: center;
   color: black;
   margin-top: 25px;
-  border-radius: 10px;
 }
+
 img {
   vertical-align: middle;
 }
@@ -296,20 +306,13 @@ img {
   opacity: 1;
 }
 /*Timeline*/
-.timeline-header{
-  background: #111;
-  padding-top: 20px;
-  color: whitesmoke;
-  padding-bottom:10px;
-}
-
 .timeline-header h1{
 text-align: center;
 margin-top: 15px;
 margin-bottom: 10px;
 }
 .time{
-  margin-top: 0px;
+  margin-top: 30px;
   margin-bottom: 10px;
   min-height: 50vh;
   width: 100%;
@@ -317,7 +320,7 @@ margin-bottom: 10px;
   align-items: center;
   justify-content: center;
   padding: 100px 0;
-  background-color: #111;
+  background-color: #000000;
 }
 .timeline {
   width: 100%;
@@ -325,7 +328,6 @@ margin-bottom: 10px;
   max-width: 800px;
   margin: 0 auto;
   position: relative;
-
 }
 
 .timeline ul {
@@ -505,7 +507,7 @@ form input[type=submit] {
   line-height: 250px;
   font-size: 90px;
   font-weight: 600;
-
+ 
   box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
 }
 
@@ -648,7 +650,7 @@ nav .navbar .links li:hover .js-sub-menu{
   line-height: 40px;
 }
 .navbar .links li .htmlCss-more-sub-menu{
-   line-height: 40px;
+   line-height: 40px; 
 }
 .navbar .links li .sub-menu .more-sub-menu{
   position: absolute;
@@ -748,7 +750,7 @@ nav .navbar .links li:hover .js-sub-menu{
 }
 @media (max-width:800px){
   nav{
-     position: relative;
+     position: relative; 
   }
   .navbar .bx-menu{
     display: block;
@@ -913,7 +915,7 @@ nav .navbar .links li .sub-menu li{
 }
 form{
   margin-top: 30px;
-
+  
 }
 
 .col-sm-2 li a i{
@@ -980,17 +982,17 @@ display: inline-flex;
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
+  box-shadow: inset 0 0 5px grey; 
   border-radius: 10px;
 }
-
+ 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: black;
+  background: black; 
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-
+   
 }
