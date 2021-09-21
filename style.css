@@ -1037,18 +1037,18 @@ input[type=submit] {
    /*new component
 */
 
-.new_event .container .row .col-sm-6{
+.container .row .col-sm-6{
   margin-left: -50px;
 }
-.new_event .container .row .col-sm-6 h1{
+ .container .row .col-sm-6 h1{
   color: #ffffff;
-  font-size: 30px;
+  font-size: 35px;
 }
-.new_event .container .row .col-sm-6 h3{
-  font-size: 17px;
+.container .row .col-sm-6 h3{
+  font-size: 20px;
 }
 .countdown{
-  font-size: 35px;
+  font-size: 33px;
   text-align: center;
   color:#ffffff;
   margin-top: 15px;
@@ -1223,18 +1223,18 @@ input[type=submit] {
   /*new component
 */
 
-.new_event .container .row .col-sm-6{
+.container .row .col-sm-6{
   margin-left: -50px;
 }
-.new_event .container .row .col-sm-6 h1{
+ .container .row .col-sm-6 h1{
   color: #ffffff;
-  font-size: 30px;
+  font-size: 35px;
 }
-.new_event .container .row .col-sm-6 h3{
-  font-size: 17px;
+.container .row .col-sm-6 h3{
+  font-size: 20px;
 }
 .countdown{
-  font-size: 35px;
+  font-size: 33px;
   text-align: center;
   color:#ffffff;
   margin-top: 15px;
