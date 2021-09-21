@@ -1060,6 +1060,9 @@ input[type=submit] {
  margin-top: 10px;
  margin-bottom: 5px;
 } 
+   .new_event h4{
+  display: none;
+}
 
 }
 /*for Mobiles 480px
@@ -1245,6 +1248,9 @@ input[type=submit] {
  margin-bottom: 5px;
 } 
   #timer{
+  display: none;
+}
+  .new_event h4{
   display: none;
 }
   
