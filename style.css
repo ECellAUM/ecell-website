@@ -1244,6 +1244,9 @@ input[type=submit] {
  margin-top: 10px;
  margin-bottom: 5px;
 } 
+  #timer{
+  display: none;
+}
   
 }
 
