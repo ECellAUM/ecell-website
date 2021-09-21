@@ -593,7 +593,7 @@ nav .navbar .links li .sub-menu li{
 /*New component*/
 
 
-/* .new_event{
+.new_event{
   background: #0a305f;
   min-height: 34vh;
   padding: 10px;
@@ -616,7 +616,10 @@ nav .navbar .links li .sub-menu li{
  outline: 0px;
  margin-top: 10px;
 }
- */
+#what h1{
+  color:#e8851e;
+
+}
 
 .wrapper{
   width: 100%;
@@ -1037,9 +1040,6 @@ input[type=submit] {
    /*new component
 */
 
-/* .container .row .col-sm-6{
-  margin-left: -50px;
-}
  .container .row .col-sm-6 h1{
   color: #ffffff;
   font-size: 35px;
@@ -1059,7 +1059,7 @@ input[type=submit] {
  outline: 0px;
  margin-top: 10px;
  margin-bottom: 5px;
-}  */
+} 
 
 }
 /*for Mobiles 480px
@@ -1223,9 +1223,7 @@ input[type=submit] {
   /*new component
 */
 
-/* .container .row .col-sm-6{
-  margin-left: -50px;
-}
+
  .container .row .col-sm-6 h1{
   color: #ffffff;
   font-size: 35px;
@@ -1245,7 +1243,7 @@ input[type=submit] {
  outline: 0px;
  margin-top: 10px;
  margin-bottom: 5px;
-}  */
+} 
   
 }
 
