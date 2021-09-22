@@ -239,20 +239,43 @@ Entrepreneurship-Cell (E-Cell) also conducts various inter-school workshops, sem
 	<!--    NEW COMPONENT -->
 	 <div class="container new_event" data-aos="fade-right">
       <div class="row">
-       <div class="col-sm-6" style="margin-left:50px;" id="event">
-        <h1>Next Event : Innovation Week</h1>
-         <h3 id="starts"> <span style="font-size: 28px;">23</span>rd September - <span  style="font-size: 28px;">28</span>th September</h3>
-         <a href="" class="btn btn-success btn-lg" >Know More >></a>
+       <div class="col-sm-4" style="margin-left:50px;" id="event">
+        <h2 style="margin-left: -170px;">Next Event :</h2>
+        <h1>Innovation Week</h1>
+         <h4 id="starts"> <span style="font-size: 28px;">23</span>rd Sept - <span  style="font-size: 28px;">28</span>th Sept</h3>
+         <a href="http://ecellaum.in/Events/index.html" class="btn btn-success btn-lg" >Know More >></a>
 
          
        </div>
-       <div>
-       <div class="col-sm-6 countdown" style="margin-left:-70px;">
-             00  :  00 :  00 :  00
+       
+       <div class="col-sm-4" style="margin-top:80px;">
+        <div class="launch-time">
+        <div>
+          <p id="days">00</p>
+          <span>Days</span>
+        </div>
+        <div>
+          <p id="hours">00</p>
+          <span>Hours</span>
+        </div>
+        <div>
+          <p id="minutes">00</p>
+          <span>Minutes</span>
+        </div>
+        <div>
+          <p id="seconds">00</p>
+          <span>Seconds</span>
+        </div>
+          
          
        </div>
-        <h4 style="color: #ffffff;" id="timer"><span style="margin-left: -35px;font-size: 20px;">Days </span><span style="margin-left: 30px;font-size: 20px;">Hours </span><span style="margin-left: 20px;font-size: 20px;">Minutes </span><span style="margin-left: 10px;font-size: 20px;">Seconds</span></h4>
      </div>
+     <div class="col-sm-4" style="margin-top:80px;">
+      <img src="https://cdn-icons-png.flaticon.com/512/123/123369.png" class="rocket">
+       
+     </div>
+        
+    
         
 
       </div>
@@ -588,6 +611,38 @@ function backToTop() {
 			console.log("data saved");
 		}
 
+  </script>
+	<script type="text/javascript">
+    var countDownDate= new Date("Sep 23, 2021 16:30:00").getTime();
+    var x = setInterval(function(){
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById('days').innerHTML = days;
+       document.getElementById('hours').innerHTML = hours;
+        document.getElementById('minutes').innerHTML = minutes;
+         document.getElementById('seconds').innerHTML = seconds;
+
+         if(distance < 0){
+          clearInterval(x);
+          document.getElementById('days').innerHTML = "00";
+       document.getElementById('hours').innerHTML = "00";
+        document.getElementById('minutes').innerHTML = "00";
+         document.getElementById('seconds').innerHTML = "00";
+
+         }
+          
+
+
+
+
+
+    },1000)
   </script>
 
 </body>
