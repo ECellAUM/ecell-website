@@ -98,6 +98,22 @@ text-align: center;
   top: 130%;
   position: absolute;
 }
+  .new_event h2{
+  font-size: 22px;
+}
+.new_event .row .col-sm-6 img{
+  margin-left: -40px;
+
+}
+#timer{
+  margin-left: 200px;
+}
+.launch-time p{
+    font-size: 40px;
+  }
+.launch-time div span{
+    font-size: 18px;
+  }
 .upcoming h1{
   font-size: 32px;
 }
