@@ -480,6 +480,81 @@ nav .navbar .links li .sub-menu li{
   margin-top: 20px;
 
 }
+.container .welcome .row .col-sm-6 .fa-eye{
+  font-size: 70px;
+  color: #E8851E;
+  margin-bottom: 10px;
+}
+.container .welcome .row .col-sm-6 h3{
+  text-align: center;
+  display: block;
+ 
+}
+
+.container .welcome .row .col-sm-6 .fa-rocket{
+  font-size: 70px;
+  color:  #E8851E;
+  margin-bottom: 10px;
+
+}
+.container .welcome .row .col-sm-6{
+ width: 340px;
+ align-items: center;
+ text-align: center;
+ padding: 20px;
+ margin: 10px;
+}
+.hover{
+  color: #222;
+  padding: .5em 1em;
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+
+ 
+  --border-size: 2px;
+  --accent-color: #0AF;
+
+}
+.col-sm-6: hover{
+  transition: 1s;
+}
+.hover.col-sm-6::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-color:black;
+
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.hover.col-sm-6:hover::before,
+.hover.col-sm-6:focus::before {
+  transform: scaleX(1);
+}
+
+.hover.col-sm-6{
+  transition: color 300ms ease-in-out;
+  z-index: 1;
+}
+
+
+.hover.col-sm-6:hover,
+.hover.col-sm-6:focus {
+  color: white;
+}
+
+
+/*end
+*/
+
 .container .welcome{
   margin-left: 40px;
 }
