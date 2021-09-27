@@ -20,8 +20,22 @@
 
 
   .container .welcome #vision_mission{
-    margin-left: -150px;
+    margin-left: -40px;
   }
+  .container .welcome .row .col-sm-6{
+ width: auto;
+ align-items: center;
+ text-align: center;
+ padding: 20px;
+ margin: 10px;
+}
+ .container .welcome .row .col-sm-4{
+ width: auto;
+ align-items: center;
+ text-align: center;
+ padding: 20px;
+ margin: 10px;
+}
  
 .logo a img{
     width: 240px;
