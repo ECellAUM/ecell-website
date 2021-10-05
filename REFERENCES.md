@@ -5,4 +5,6 @@ Techinques:
 - custom elements
 - shadow DOMs
 
-Tutorial : https://www.freecodecamp.org/news/reusable-html-components-how-to-reuse-a-header-and-footer-on-a-website/
+Tutorial : 
+1. https://www.freecodecamp.org/news/reusable-html-components-how-to-reuse-a-header-and-footer-on-a-website/
+2. https://css-tricks.com/an-introduction-to-web-components/
