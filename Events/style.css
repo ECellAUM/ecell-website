@@ -6,7 +6,7 @@
   min-height: 40vh;
   padding: 10px;
   margin-top: 15px;
-   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://media1.giphy.com/media/djR6hGcZxt9m/giphy.gif);
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://i.pinimg.com/originals/39/f6/a0/39f6a005763b37e2237b320df0e68e31.gif);/*new content*/
 
 
 }
@@ -57,7 +57,7 @@
 
 .header{
  
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://media.istockphoto.com/vectors/vector-circle-tech-with-light-blue-and-lamp-bulb-on-technology-vector-id1172940354?k=20&m=1172940354&s=612x612&w=0&h=N6EXGbVnerbhh0rbqVnYFoYIC-GQ_tMZy9_olgzbgNI=);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.pixabay.com/photo/2018/01/16/01/02/cryptocurrency-3085139__480.jpg);/*new content*/
     min-height: 100vh;
     background-position: center;
     background-size: cover;
