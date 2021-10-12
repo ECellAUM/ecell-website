@@ -57,7 +57,7 @@ function tick () {
     let days = Math.floor(t / (1000 * 60 * 60 * 24));
     // prefix any number below 10 with a "0" E.g. 1 = 01
     if (days < 10) { days = "0" + days; }
-    
+
     // Algorithm to calculate hours
     let hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     if (hours < 10) { hours = "0" + hours; }
