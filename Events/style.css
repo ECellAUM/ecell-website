@@ -1,15 +1,14 @@
 /*Media Queries
-*//*Media Queries
 */
 .new_event{
   background: #0a305f;
-  min-height: 40vh;
+  min-height: 50vh;
   padding: 10px;
   margin-top: 15px;
-   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://i.pinimg.com/originals/39/f6/a0/39f6a005763b37e2237b320df0e68e31.gif);/*new content*/
-
-
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://i.pinimg.com/originals/89/81/2c/89812ce10df5b5be1a0bfb337aac7d99.gif);/*new content*/
+  
 }
+
 .container .row .col-sm-4 h2{
   color: #ffffff;
 }
@@ -54,10 +53,9 @@
 }
 /*end of new component
 */
-
 .header{
  
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.pixabay.com/photo/2018/01/16/01/02/cryptocurrency-3085139__480.jpg);/*new content*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.pixabay.com/photo/2021/06/01/03/52/interactive-6300483_960_720.jpg);/*new content*/
     min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -87,36 +85,12 @@
 
 /*Register button*/
 
-.register_button{
-  float: left;
-position: relative;
-margin-left: 120px;
-margin-top: 40px;
-
-  
+.header .container a button{
+outline: none;
+width: 20%;
+margin-left: -5px;
 }
 
-.register_button a{
-  color: whitesmoke;
-  font-size: 25px;
-}
-/*.register_button button a:hover{
-  color: white;
-}*/
-.register_button button:hover{
- 
-  background-color: #0a305f;
-
-}
-.register_button button:hover{
-  border: 1px solid #0a305f ;
-}
-.register_button button a{
-  text-decoration: none;
-  outline: 0px;
-  width: 100%;
-  color: black;
-}
 .hover{
   color: #222;
   padding: .5em 1em;
@@ -253,6 +227,7 @@ margin-bottom: 15px;
   margin-left: 290px;
   text-align: center;
 }
+
 
 .alert{
   text-align: center;
@@ -583,8 +558,6 @@ form input[type=submit] {
 .owl-dot:hover{
   background: #e69500!important;
 }
-
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -592,15 +565,27 @@ form input[type=submit] {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+#loading{
+  position: fixed;
+
+  width: 100%;
+  height: 100vh;
+  background: #fff
+  url('https://flevix.com/wp-content/uploads/2019/07/Comp-2.gif')
+   no-repeat center; 
+  z-index: 99999;
+}
 html{
   scroll-behavior: smooth;
-overflow-x: hidden;
-
 }
 body{
-  min-height:auto;
+  min-height: 400vh;
   background-color: #ffffff;
   overflow-x: hidden;
+}
+.fa-home{
+  margin: 20px;
+  font-size: 20px;
 }
 nav{
   position: fixed;
@@ -658,6 +643,16 @@ nav .navbar .links li a{
   font-size: 15px;
   font-weight: 500;
 }
+.alert{
+  width:50%;
+  align-self: center;
+  text-align: center;
+  padding:10px;
+  background-color: green;
+  color: white;
+  margin-bottom: 10px;
+  display: none;
+}
 nav .navbar .links li a:hover{
   border-bottom: 4px solid orange;
 }
@@ -665,7 +660,14 @@ nav .navbar .links li a:hover{
 .links li:hover .js-arrow{
   transform: rotate(180deg);
   }
-
+.links li:hover .htmlcss-arrow,
+.links li:hover .js-arrow1{
+  transform: rotate(180deg);
+  }
+  .links li:hover .htmlcss-arrow,
+.links li:hover .js-arrow2{
+  transform: rotate(180deg);
+  }
 nav .navbar .links li .arrow{
   /* background: red; */
   height: 100%;
@@ -687,11 +689,49 @@ nav .navbar .links li .sub-menu{
   display: none;
   z-index: 2;
 }
+nav .navbar .links li .sub-menu1{
+  position: absolute;
+  top: 90px;
+  left: 0;
+  line-height: 40px;
+  background:black ;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+  display: none;
+  z-index: 2;
+}
+nav .navbar .links li .sub-menu2{
+  position: absolute;
+  top: 90px;
+  left: 0;
+  line-height: 40px;
+  background:black ;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+  display: none;
+  z-index: 2;
+}
 nav .navbar .links li:hover .htmlCss-sub-menu,
 nav .navbar .links li:hover .js-sub-menu{
   display: block;
 }
+nav .navbar .links li:hover .htmlCss-sub-menu,
+nav .navbar .links li:hover .js-sub-menu1{
+  display: block;
+}
+nav .navbar .links li:hover .htmlCss-sub-menu,
+nav .navbar .links li:hover .js-sub-menu2{
+  display: block;
+}
 .navbar .links li .sub-menu li{
+  padding: 0 22px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.navbar .links li .sub-menu1 li{
+  padding: 0 22px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.navbar .links li .sub-menu2 li{
   padding: 0 22px;
   border-bottom: 1px solid rgba(255,255,255,0.1);
 }
@@ -700,9 +740,19 @@ nav .navbar .links li:hover .js-sub-menu{
   font-size: 15px;
   font-weight: 500;
 }
+.navbar .links li .sub-menu1 a{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}.navbar .links li .sub-menu2 a{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
 .navbar .links li .sub-menu .more-arrow{
   line-height: 40px;
 }
+
 .navbar .links li .htmlCss-more-sub-menu{
    line-height: 40px; 
 }
@@ -714,6 +764,7 @@ nav .navbar .links li:hover .js-sub-menu{
   z-index: 1;
   display: none;
 }
+
 .links li .sub-menu .more:hover .more-sub-menu{
   display: block;
 }
@@ -804,7 +855,7 @@ nav .navbar .links li:hover .js-sub-menu{
 }
 @media (max-width:800px){
   nav{
-     position: relative; 
+    /* position: relative; */
   }
   .navbar .bx-menu{
     display: block;
@@ -856,7 +907,27 @@ nav .navbar .links li .sub-menu{
   box-shadow: none;
   display: none;
 }
+nav .navbar .links li .sub-menu1{
+  position: relative;
+  top: 0;
+  box-shadow: none;
+  display: none;
+}
+nav .navbar .links li .sub-menu2{
+  position: relative;
+  top: 0;
+  box-shadow: none;
+  display: none;
+}
 nav .navbar .links li .sub-menu li{
+  border-bottom: none;
+
+}
+nav .navbar .links li .sub-menu1 li{
+  border-bottom: none;
+
+}
+nav .navbar .links li .sub-menu2 li{
   border-bottom: none;
 
 }
@@ -872,6 +943,14 @@ nav .navbar .links li .sub-menu li{
 }
 .links li:hover .htmlcss-arrow,
 .links li:hover .js-arrow{
+  transform: rotate(0deg);
+  }
+  .links li:hover .htmlcss-arrow,
+.links li:hover .js-arrow1{
+  transform: rotate(0deg);
+  }
+  .links li:hover .htmlcss-arrow,
+.links li:hover .js-arrow2{
   transform: rotate(0deg);
   }
   .navbar .links li .sub-menu .more-sub-menu{
@@ -891,19 +970,49 @@ nav .navbar .links li .sub-menu li{
   nav .navbar .links li:hover .js-sub-menu{
     display: none;
   }
+  nav .navbar .links li:hover .htmlCss-sub-menu,
+  nav .navbar .links li:hover .js-sub-menu1{
+    display: none;
+  }
+  nav .navbar .links li:hover .htmlCss-sub-menu,
+  nav .navbar .links li:hover .js-sub-menu2{
+    display: none;
+  }
 .navbar .nav-links.show1 .links .htmlCss-sub-menu,
   .navbar .nav-links.show3 .links .js-sub-menu,
   .navbar .nav-links.show2 .links .more .more-sub-menu{
       display: block;
     }
+    .navbar .nav-links.show1 .links .htmlCss-sub-menu,
+  .navbar .nav-links.show4 .links .js-sub-menu1,
+  .navbar .nav-links.show2 .links .more .more-sub-menu{
+      display: block;
+    }
+    .navbar .nav-links.show1 .links .htmlCss-sub-menu,
+  .navbar .nav-links.show5 .links .js-sub-menu2,
+  .navbar .nav-links.show2 .links .more .more-sub-menu{
+      display: block;
+    }
+    
+    
     .navbar .nav-links.show1 .links .htmlcss-arrow,
     .navbar .nav-links.show3 .links .js-arrow{
+        transform: rotate(180deg);
+}
+.navbar .nav-links.show1 .links .htmlcss-arrow,
+    .navbar .nav-links.show4 .links .js-arrow1{
+        transform: rotate(180deg);
+}
+.navbar .nav-links.show1 .links .htmlcss-arrow,
+    .navbar .nav-links.show5 .links .js-arrow2{
         transform: rotate(180deg);
 }
     .navbar .nav-links.show2 .links .more-arrow{
       transform: rotate(90deg);
     }
 }
+
+
 @media screen and (max-width: 480px){
    nav{
   width: 100%;
@@ -926,7 +1035,7 @@ nav .navbar .links li .sub-menu li{
     top: 0;
     left: -100%;
     display: block;
-    max-width: 270px;
+    max-width: 360px;
     width: 100%;
     background: black;
     line-height: 40px;
