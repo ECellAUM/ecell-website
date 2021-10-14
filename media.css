@@ -202,7 +202,15 @@ input[type=submit] {
 }
 /*new component
 */
-
+.new_event{
+     width: 94%;
+  }
+  .new_event .row .col-sm-4 h1{
+    margin-left: -14px;
+  }
+  .new_event .row .col-sm-4 a button{
+    margin-left: -14px;
+  }
  .container .row .col-sm-4 h1{
   color: #ffffff;
   font-size: 35px;
