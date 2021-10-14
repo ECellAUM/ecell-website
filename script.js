@@ -25,18 +25,28 @@ navLinks.style.left = "-100%";
 
 
 // sidebar submenu open close js code
-let htmlcssArrow = document.querySelector(".htmlcss-arrow");
+
+let htmlcssArrow = document.querySelector(".about");
 htmlcssArrow.onclick = function() {
  navLinks.classList.toggle("show1");
 }
-let moreArrow = document.querySelector(".more-arrow");
+let moreArrow = document.querySelector(".teams");
 moreArrow.onclick = function() {
  navLinks.classList.toggle("show2");
 }
-let jsArrow = document.querySelector(".js-arrow");
-jsArrow.onclick = function() {
+let jsArrow = document.querySelector(".articles");
+jsArrow.onclick = function(){
  navLinks.classList.toggle("show3");
 }
+let gallery = document.querySelector(".gallery");
+gallery.onclick = function(){
+ navLinks.classList.toggle("show4");
+}
+let initiatives= document.querySelector(".initiatives");
+initiatives.onclick = function(){
+ navLinks.classList.toggle("show5");
+}
+
 
 // Setup End Date for Countdown (getTime == Time in Milleseconds)
 let launchDate = new Date("Sep 23, 2021 16:30:00").getTime();
@@ -71,7 +81,7 @@ function tick () {
     if (secs < 10) { secs = "0" + secs; }
 
     // Create Time String
-    let time = `${days} : ${hours} : ${mins} : ${secs}`;
+    let time = `${days}   :   ${hours}   :   ${mins}   :     ${secs}`;
 
     // Set time on document
     document.querySelector('.countdown').innerText = time;
