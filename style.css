@@ -80,7 +80,14 @@ nav .navbar .links li a:hover{
 .links li:hover .js-arrow{
   transform: rotate(180deg);
   }
-
+.links li:hover .htmlcss-arrow,
+.links li:hover .js-arrow1{
+  transform: rotate(180deg);
+  }
+  .links li:hover .htmlcss-arrow,
+.links li:hover .js-arrow2{
+  transform: rotate(180deg);
+  }
 nav .navbar .links li .arrow{
   /* background: red; */
   height: 100%;
@@ -102,15 +109,63 @@ nav .navbar .links li .sub-menu{
   display: none;
   z-index: 2;
 }
+nav .navbar .links li .sub-menu1{
+  position: absolute;
+  top: 90px;
+  left: 0;
+  line-height: 40px;
+  background:black ;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+  display: none;
+  z-index: 2;
+}
+nav .navbar .links li .sub-menu2{
+  position: absolute;
+  top: 90px;
+  left: 0;
+  line-height: 40px;
+  background:black ;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+  display: none;
+  z-index: 2;
+}
+
 nav .navbar .links li:hover .htmlCss-sub-menu,
 nav .navbar .links li:hover .js-sub-menu{
+  display: block;
+}
+nav .navbar .links li:hover .htmlCss-sub-menu,
+nav .navbar .links li:hover .js-sub-menu1{
+  display: block;
+}
+nav .navbar .links li:hover .htmlCss-sub-menu,
+nav .navbar .links li:hover .js-sub-menu2{
   display: block;
 }
 .navbar .links li .sub-menu li{
   padding: 0 22px;
   border-bottom: 1px solid rgba(255,255,255,0.1);
 }
+.navbar .links li .sub-menu1 li{
+  padding: 0 22px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.navbar .links li .sub-menu2 li{
+  padding: 0 22px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
 .navbar .links li .sub-menu a{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+.navbar .links li .sub-menu1 a{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}.navbar .links li .sub-menu2 a{
   color: #fff;
   font-size: 15px;
   font-weight: 500;
@@ -271,7 +326,27 @@ nav .navbar .links li .sub-menu{
   box-shadow: none;
   display: none;
 }
+  nav .navbar .links li .sub-menu1{
+  position: relative;
+  top: 0;
+  box-shadow: none;
+  display: none;
+}
+nav .navbar .links li .sub-menu2{
+  position: relative;
+  top: 0;
+  box-shadow: none;
+  display: none;
+}
 nav .navbar .links li .sub-menu li{
+  border-bottom: none;
+
+}
+  nav .navbar .links li .sub-menu1 li{
+  border-bottom: none;
+
+}
+nav .navbar .links li .sub-menu2 li{
   border-bottom: none;
 
 }
@@ -287,6 +362,14 @@ nav .navbar .links li .sub-menu li{
 }
 .links li:hover .htmlcss-arrow,
 .links li:hover .js-arrow{
+  transform: rotate(0deg);
+  }
+   .links li:hover .htmlcss-arrow,
+.links li:hover .js-arrow1{
+  transform: rotate(0deg);
+  }
+  .links li:hover .htmlcss-arrow,
+.links li:hover .js-arrow2{
   transform: rotate(0deg);
   }
   .navbar .links li .sub-menu .more-sub-menu{
@@ -306,13 +389,40 @@ nav .navbar .links li .sub-menu li{
   nav .navbar .links li:hover .js-sub-menu{
     display: none;
   }
+  nav .navbar .links li:hover .htmlCss-sub-menu,
+  nav .navbar .links li:hover .js-sub-menu1{
+    display: none;
+  }
+  nav .navbar .links li:hover .htmlCss-sub-menu,
+  nav .navbar .links li:hover .js-sub-menu2{
+    display: none;
+  }
 .navbar .nav-links.show1 .links .htmlCss-sub-menu,
   .navbar .nav-links.show3 .links .js-sub-menu,
   .navbar .nav-links.show2 .links .more .more-sub-menu{
       display: block;
     }
+  .navbar .nav-links.show1 .links .htmlCss-sub-menu,
+  .navbar .nav-links.show4 .links .js-sub-menu1,
+  .navbar .nav-links.show2 .links .more .more-sub-menu{
+      display: block;
+    }
+    .navbar .nav-links.show1 .links .htmlCss-sub-menu,
+  .navbar .nav-links.show5 .links .js-sub-menu2,
+  .navbar .nav-links.show2 .links .more .more-sub-menu{
+      display: block;
+    }
+    
     .navbar .nav-links.show1 .links .htmlcss-arrow,
     .navbar .nav-links.show3 .links .js-arrow{
+        transform: rotate(180deg);
+}
+  .navbar .nav-links.show1 .links .htmlcss-arrow,
+    .navbar .nav-links.show4 .links .js-arrow1{
+        transform: rotate(180deg);
+}
+.navbar .nav-links.show1 .links .htmlcss-arrow,
+    .navbar .nav-links.show5 .links .js-arrow2{
         transform: rotate(180deg);
 }
     .navbar .nav-links.show2 .links .more-arrow{
