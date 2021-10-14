@@ -30,7 +30,7 @@ nav .navbar .nav-links{
   }
   .header{
  
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://media.istockphoto.com/vectors/vector-circle-tech-with-light-blue-and-lamp-bulb-on-technology-vector-id1172940354?k=20&m=1172940354&s=612x612&w=0&h=N6EXGbVnerbhh0rbqVnYFoYIC-GQ_tMZy9_olgzbgNI=);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://cdn.pixabay.com/photo/2021/06/01/03/52/interactive-6300483_960_720.jpg);
     min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -48,19 +48,21 @@ nav .navbar .nav-links{
   margin-top: 30px;
 }
 
-  .register_button{
-  float: left;
-position: relative;
-margin-left: 0px;
-margin-top: 0px;
-width: 50%;
-text-align: center;
+  .header .container a button{
+outline: none;
+width: 54%;
+margin-left: 70px;
+font-size: 24px;
 
-  
 }
+ .header .container a button span i{
+  font-size: 18px;
+ }
+
 #starts{
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
+  margin-left: -5px;
 }
 .hover{
   margin-top: -100px;
@@ -98,22 +100,6 @@ text-align: center;
   top: 130%;
   position: absolute;
 }
-  .new_event h2{
-  font-size: 22px;
-}
-.new_event .row .col-sm-6 img{
-  margin-left: -40px;
-
-}
-#timer{
-  margin-left: 200px;
-}
-.launch-time p{
-    font-size: 40px;
-  }
-.launch-time div span{
-    font-size: 18px;
-  }
 .upcoming h1{
   font-size: 32px;
 }
@@ -127,9 +113,28 @@ text-align: center;
   top: 140%;
   position: absolute;
 }
-.countdown{
-  font-size: 40px;
+/*content to be added*/
+.new_event h2{
+  font-size: 30px;
 }
+.new_event .row .col-sm-4 img{
+  margin-left: 50px;
+  margin-top: 20px;
+  
+
+}
+#timer{
+  margin-left: 200px;
+}
+.new_event{
+  width: 95%;
+}
+.new_event .row .col-sm-4 .launch-time p,span{
+  font-size: 28px;
+}
+
+
+
 .container .row .col-sm-6 .mySlides{
   width: 125%;
   height: 125%;
