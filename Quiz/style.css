@@ -176,14 +176,17 @@ nav .navbar .links li a{
   font-weight: 500;
 }
 .alert{
-  width:50%;
+  width:70%;
   align-self: center;
   text-align: center;
-  padding:10px;
-  background-color: green;
+  background-color:#b30000;
   color: white;
-  margin-bottom: 10px;
   display: none;
+  margin-top: 15px;
+  margin-bottom: -24px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #b30000;
 }
 nav .navbar .links li a:hover{
   border-bottom: 4px solid orange;
