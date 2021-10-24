@@ -44,6 +44,10 @@ nav .navbar .nav-links{
     width: 100%;
 
 }
+.alert{
+  width: 100%;
+  font-size: 15px;
+}
 .quiz{
   margin-top: 100px;
 }
@@ -205,6 +209,8 @@ nav .navbar .nav-links{
 
 }
 
+
+
 }
 
 @media screen and (min-width: 480px) and (max-width: 740px){
@@ -315,6 +321,10 @@ nav .navbar .nav-links{
     justify-content: stretch;
     margin-top: 85px;
 
+}
+.alert{
+  width: 100%;
+  font-size: 17px;
 }
 
 }
@@ -428,6 +438,10 @@ nav .navbar .nav-links{
     justify-content: stretch;
     margin-top: 85px;
 
+}
+.alert{
+  width: 100%;
+  font-size: 17px;
 }
 
 
@@ -610,5 +624,9 @@ nav .navbar .nav-links{
     justify-content: stretch;
     margin-top: 85px;
 
+}
+.alert{
+  width: 100%;
+  font-size: 17px;
 }
 }
