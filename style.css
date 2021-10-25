@@ -688,6 +688,7 @@ nav .navbar .links li .sub-menu2 li{
 }
 .container .welcome .row .col-sm-4{
  width: 340px;
+ height: 340px;
  align-items: center;
  text-align: center;
  padding: 20px;
