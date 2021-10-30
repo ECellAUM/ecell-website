@@ -280,7 +280,7 @@ input[type=submit] {
   font-size: 24px;
 }
 .fa-arrow-up{
-  
+  display:none;
   padding: 6px;
   border-radius: 40px;
   font-size: 14px;
@@ -630,7 +630,7 @@ input[type=submit] {
   font-size: 24px;
 }
 .fa-chevron-up{
-  
+   display:none;
   padding: 6px;
   border-radius: 40px;
   font-size: 14px;
@@ -967,7 +967,7 @@ input[type=submit] {
   font-size: 24px;
 }
 .fa-chevron-up{
-  
+   display:none;
   padding: 6px;
   border-radius: 40px;
   font-size: 14px;
@@ -1253,7 +1253,7 @@ input[type=submit] {
   font-size: 24px;
 }
 .fa-chevron-up{
-  
+   display:none;
   padding: 6px;
   border-radius: 40px;
   font-size: 14px;
@@ -1531,7 +1531,7 @@ input[type=submit] {
   font-size: 24px;
 }
 .fa-chevron-up{
-  
+   display:none;
   padding: 6px;
   border-radius: 40px;
   font-size: 14px;
